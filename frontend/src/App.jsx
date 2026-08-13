@@ -13,7 +13,7 @@ import './index.css';
 // ==========================================
 // 1. API CONFIGURATION
 // ==========================================
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://mams-backend-ehfb.onrender.com';
 
 // Configure Axios to automatically attach the JWT token to every request
 axios.interceptors.request.use(
